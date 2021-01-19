@@ -1,12 +1,15 @@
 #AWS-CLI setup
 
 To install: 
+
 ```sudo apt-get install aws-cli```
 
 To configure
+
 ```aws configure --profile <profile_name>```
 
 #Docker ECR 
+
 ```aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin <accountID>.dkr.ecr.us-east-2.amazonaws.com```
 
 Creating repo
