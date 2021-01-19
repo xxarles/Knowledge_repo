@@ -21,6 +21,8 @@ aws ecr create-repository \
 ```
 Uploading this repo
 
-```docker tag l_n_ner:latest 949145459004.dkr.ecr.us-east-2.amazonaws.com/l_n_ner:latest
+```
+docker tag <proj_name>:latest 949145459004.dkr.ecr.us-east-2.amazonaws.com/<proj_name>:latest
 
-docker push 949145459004.dkr.ecr.us-east-2.amazonaws.com/l_n_ner:latest```
+docker push 949145459004.dkr.ecr.us-east-2.amazonaws.com/<proj_name>:latest
+```
