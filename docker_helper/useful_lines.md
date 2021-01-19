@@ -11,7 +11,8 @@ To create a new ssh agent run
 $eval `ssh-agent -s`
 $ssh-add  # This adds the default identity file to this agent
 
-#Running docker
+# Running docker
+
 Basic build
 
 ```$docker build -t proj_name:version_name .```
