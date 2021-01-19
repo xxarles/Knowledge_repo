@@ -8,8 +8,11 @@
  ## SSH agents
  
 To create a new ssh agent run 
+```
 $eval `ssh-agent -s`
+
 $ssh-add  # This adds the default identity file to this agent
+```
 
 # Running docker
 
